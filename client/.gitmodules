@@ -1,0 +1,3 @@
+[submodule "realtime-charts"]
+	path = realtime-charts
+	url = https://github.com/AlejandroMataGuillen/realtime-charts.git
