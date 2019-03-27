@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 
 app.use('/api/market', marketRouter);
 
-io.on('connection', function (socket) {
+io.on('connection', (socket) => {
   console.log('A user connected', socket.id);
 });
 
